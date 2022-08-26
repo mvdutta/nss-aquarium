@@ -1,0 +1,70 @@
+ /* * {border: 1px solid red;} */
+ body {
+    background-color: rgb(237, 237, 226);
+ }
+
+.header_title {
+    text-align: center;
+    font-size: 4em;
+}
+.header_img {
+    width: 38%;
+    border-radius: 50%;
+    display: block;
+    margin: auto;   
+}
+.header_text {
+    text-align: center;
+    font-size: 1.5em;
+}
+.fish_header {
+    margin-top: 25vh;
+}
+.fish_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+    gap: 20px;
+    margin-right: 400px;
+}
+
+.fish_break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.fish_img {
+    width: 70%;
+}
+
+.fish_card {
+    
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%;
+  padding: 15px;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+.tip {
+    display: block;
+    float: right;
+    border: 1px solid black;
+    margin-right: 20px;
+    padding-right: 15px;
+    padding-left: 50px;
+    margin-left: -50px;
+}
+
+.tip_header {
+    text-align: center;
+}
+.tip_topic {
+    text-align: center
+}
+.tip_list {
+    
+}
+
+
