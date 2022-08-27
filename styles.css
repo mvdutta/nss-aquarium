@@ -1,6 +1,7 @@
 
  body {
     background-color: rgb(237, 237, 226);
+    font-family: 'Atma', cursive;
  }
  .header {
     margin-bottom: 100px;
@@ -24,7 +25,7 @@
 }
 
 .fish_header {
- 
+  text-align: center;
 }
 .fish {
     display: flex;
@@ -67,6 +68,19 @@
     text-align: center
 }
 
+.places_header {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+
+.quotes {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
 .places_holder{
     display: flex;
     flex-wrap: wrap;
@@ -76,7 +90,7 @@
 .places_card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 40%;
+    width: 20%;
     padding: 15px;
 }
 
