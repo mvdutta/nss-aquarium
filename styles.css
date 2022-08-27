@@ -1,58 +1,91 @@
-
+/* * {border: 1px solid red;} */
  body {
-    background-color: rgb(237, 237, 226);
+    background-color: rgb(207, 226, 236);
     font-family: 'Atma', cursive;
  }
  .header {
     margin-bottom: 100px;
-    /* border: 1px solid black; */
-    margin: 0 35%
+    display: flex;
  }
 
  .header_title {
     text-align: center;
     font-size: 4em;
+    color: rgb(103, 100, 2)
 }
 
-.header_img {
-    width: 75%;
+.header_img1 {
+    width: 60%;
     border-radius: 50%;
     display: block;
     margin: auto;   
+}
+
+.header_img2 {
+    display: block;
+    width: 4%;
+    opacity: .5;
+    margin: auto;
 }
 .header_subhead {
     text-align: center;
     font-size: 2.5em;
     margin-top: 43px;
+    color:rgb(126, 107, 37)
 
 }
 
 .header_text {
-    /* text-align: center; */
     font-size: 1.5em;
-    margin: 15px 5px 0 60px;
+    color:rgb(59, 57, 4);
+    width: 70%;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+   
+}
+
+.header_img_holder {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+
+.header_img_holder img {
+  width: 60%;
+  opacity: .9;
+}
+hr {
+    border: 1px solid rgb(84, 116, 8);
+    opacity: .5;
+    position: relative;
+    display: flex;
+    justify-content: center;
 }
 
 .fish_header {
   text-align: center;
   font-size: 2.5em;
+  color:rgb(126, 107, 37)
 }
 .fish {
     display: flex;
     align-items: stretch;
-    margin-top: 8%;
+    margin-top: 5%;
 }
 .fish_leftpanel {
     display: flex;
     flex-direction: column;
     flex: 3;
     margin-left: 75px;
+    margin-right: 100px;;
 }
 
 .fish_rightpanel {
     flex: 2;
     margin-right: 75px;
-    /* git  */
 
 }
 
@@ -69,10 +102,10 @@
 }
 
 .fish_card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
+  box-shadow: 0 4px 9px 0px; rgba(0,0,0,0.2);
   width: 25%;
   padding: 15px;
+  border-radius: 2%;
 }
 
 .fish_container {
@@ -82,22 +115,31 @@
 .fish_text {
     margin: 0;
     font-size: 1.2em;
+    color:rgb(59, 57, 4);
 }
 
 .tip_header {
     text-align: center;
     font-size: 2.5em;
+    color:rgb(126, 107, 37)
 }
 .tip_topic {
     text-align: center;
     font-size: 1.8em;
+    color:rgb(100, 97, 9);
 }
 .tip_list {
     font-size: 1.5em;
+    color:rgb(59, 57, 4);
 }
-.tips_img {
-    margin-right: auto;
-    margin-bottom: auto;
+
+.tips_image_holder{
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+.tips_image_holder img{
+
 }
 
 .quotes {
@@ -107,14 +149,17 @@
 }
 .quotes_header {
     font-size: 2.5em;
+    color:rgb(126, 107, 37)
 }
 .quotes_text {
     font-size: 1.5em;
+    color:rgb(59, 57, 4);
 }
 
 .places_header {
     text-align: center;
     font-size: 2.5em;
+    color:rgb(126, 107, 37)
 }
 
 .places_holder {
@@ -125,8 +170,7 @@
 }
 
 .places_card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
+    box-shadow: 0 4px 9px 0; rgba(0,0,0,0.2);
     width: 17%;
     padding: 15px;
     margin-top: 75px;
@@ -144,8 +188,10 @@
     font-size: 1.5em;
     text-align: center;
     margin: 0;
+    color:rgb(59, 57, 4);
 }
 .places_text {
     margin: 0;
     font-size: 1.2em;
+    color:rgb(59, 57, 4);
 }
