@@ -133,13 +133,12 @@ hr {
     color:rgb(59, 57, 4);
 }
 
-.tips_image_holder{
+.tips_image_holder {
     display: flex;
     justify-content: center;
-    margin: 5%;
 }
-.tips_image_holder img{
-
+.tips_image_holder img {
+    margin: -200px;
 }
 
 .quotes {
@@ -159,7 +158,8 @@ hr {
 .places_header {
     text-align: center;
     font-size: 2.5em;
-    color:rgb(126, 107, 37)
+    color:rgb(126, 107, 37);
+    margin-bottom: 5px;
 }
 
 .places_holder {
@@ -173,10 +173,10 @@ hr {
     box-shadow: 0 4px 9px 0; rgba(0,0,0,0.2);
     width: 17%;
     padding: 15px;
-    margin-top: 75px;
+    margin-top: 30px;
 }
 
-.places_card img{
+.places_card img {
     width: 100%;
     height: 50%;
 }
