@@ -5,53 +5,67 @@
  }
  .header {
     margin-bottom: 100px;
+    /* border: 1px solid black; */
+    margin: 0 35%
  }
 
  .header_title {
     text-align: center;
-    font-size: 3em;
+    font-size: 4em;
 }
 
 .header_img {
-    width: 25%;
+    width: 75%;
     border-radius: 50%;
     display: block;
     margin: auto;   
 }
+.header_subhead {
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 43px;
+
+}
 
 .header_text {
-    text-align: center;
-    font-size: 1.3em;
+    /* text-align: center; */
+    font-size: 1.5em;
+    margin: 15px 5px 0 60px;
 }
 
 .fish_header {
   text-align: center;
+  font-size: 2.5em;
 }
 .fish {
     display: flex;
     align-items: stretch;
+    margin-top: 8%;
 }
 .fish_leftpanel {
     display: flex;
     flex-direction: column;
     flex: 3;
+    margin-left: 75px;
 }
 
 .fish_rightpanel {
     flex: 2;
+    margin-right: 75px;
+    /* git  */
+
 }
 
 .fish_cards {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
-    /* justify-content: space-evenly; */
-    
+    gap: 20px;   
 }
 
 
 .fish_img {
-    width: 70%;
+    width: 100%;
+    height: 50%;
 }
 
 .fish_card {
@@ -61,39 +75,77 @@
   padding: 15px;
 }
 
+.fish_container {
+    margin-top: 20px;
+}
+
+.fish_text {
+    margin: 0;
+    font-size: 1.2em;
+}
+
 .tip_header {
     text-align: center;
+    font-size: 2.5em;
 }
 .tip_topic {
-    text-align: center
-}
-
-.places_header {
     text-align: center;
+    font-size: 1.8em;
+}
+.tip_list {
     font-size: 1.5em;
 }
-
+.tips_img {
+    margin-right: auto;
+    margin-bottom: auto;
+}
 
 .quotes {
     text-align: center;
     margin-top: 100px;
     margin-bottom: 100px;
 }
+.quotes_header {
+    font-size: 2.5em;
+}
+.quotes_text {
+    font-size: 1.5em;
+}
 
+.places_header {
+    text-align: center;
+    font-size: 2.5em;
+}
 
-.places_holder{
+.places_holder {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 20px;
 }
 
 .places_card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 20%;
+    width: 17%;
     padding: 15px;
+    margin-top: 75px;
 }
 
 .places_card img{
-    width: 70%;
+    width: 100%;
+    height: 50%;
+}
+
+.places_container {
+    margin-top: 20px;
+}
+.places_info {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0;
+}
+.places_text {
+    margin: 0;
+    font-size: 1.2em;
 }
