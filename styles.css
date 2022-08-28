@@ -57,8 +57,9 @@
 
 .header_img_holder img {
   width: 60%;
-  opacity: .9;
+  opacity: .75;
 }
+
 hr {
     border: 1px solid rgb(84, 116, 8);
     opacity: .5;
@@ -102,10 +103,11 @@ hr {
 .fish_img {
     width: 100%;
     height: 50%;
+    opacity: .90;
 }
 
 .fish_card {
-  box-shadow: 0 4px 9px 0px; rgba(0,0,0,0.2);
+  box-shadow: 0 3px 8px 0px rgb(74, 72, 45);
   width: 25%;
   padding: 15px;
   border-radius: 2%;
@@ -145,6 +147,7 @@ hr {
 }
 .tips_image_holder img {
     margin: -200px;
+    opacity: .95;
 }
 
 .quotes {
@@ -177,7 +180,7 @@ hr {
 }
 
 .places_card {
-    box-shadow: 0 4px 9px 0; rgba(0,0,0,0.2);
+    box-shadow: 0 3px 8px 0px rgb(74, 72, 45);
     width: 17%;
     padding: 15px;
     margin-top: 30px;
@@ -186,6 +189,7 @@ hr {
 .places_card img {
     width: 100%;
     height: 50%;
+    opacity: .90;
 }
 
 .places_container {
