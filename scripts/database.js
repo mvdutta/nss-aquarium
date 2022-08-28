@@ -100,8 +100,9 @@ const database = {
     ]
 }
 
+ //exporting this helper function which returns a copy of the fish property of the database instead of the actual database...so that the original database can't be modified by every user of the database.
 export const getFish = () => {
-    return database.fish.map(fish => ({...fish}))
+    return database.fish.map(fish => ({...fish}))//database.fish is the fish property in the database and is an array. Using map, we make a new array, copy each fish in database.fish array and store it in the new array and return the new array.
 }
 
 
