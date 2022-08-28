@@ -1,7 +1,7 @@
 /* * {border: 1px solid red;} */
  body {
-    background-color: rgb(207, 226, 236);
-    font-family: 'Atma', cursive;
+    background-color: rgb(216, 230, 237);
+    font-family: 'Zen Loop', cursive;
  }
  .header {
     margin-bottom: 100px;
@@ -10,13 +10,15 @@
 
  .header_title {
     text-align: center;
-    font-size: 4em;
-    color: rgb(103, 100, 2)
+    font-size: 85px;
+    color: rgb(63, 61, 3)
 }
 
 .header_img1 {
     width: 60%;
     border-radius: 50%;
+    opacity: .9;
+    border: 3px solid rgb(116, 128, 106);
     display: block;
     margin: auto;   
 }
@@ -29,15 +31,15 @@
 }
 .header_subhead {
     text-align: center;
-    font-size: 2.5em;
+    font-size: 55px;
     margin-top: 43px;
-    color:rgb(126, 107, 37)
+    color:rgb(5, 68, 38)
 
 }
 
 .header_text {
-    font-size: 1.5em;
-    color:rgb(59, 57, 4);
+    font-size: 35px;
+    color:rgb(30, 28, 26);
     width: 70%;
     text-align: justify;
     margin-left: auto;
@@ -67,8 +69,9 @@ hr {
 
 .fish_header {
   text-align: center;
-  font-size: 2.5em;
-  color:rgb(126, 107, 37)
+  font-size: 55px;
+  color:rgb(5, 68, 38);
+
 }
 .fish {
     display: flex;
@@ -110,27 +113,30 @@ hr {
 
 .fish_container {
     margin-top: 20px;
+    
 }
 
 .fish_text {
     margin: 0;
-    font-size: 1.2em;
-    color:rgb(59, 57, 4);
+    font-size: 25px;
+    color:rgb(30, 28, 26);
 }
 
 .tip_header {
     text-align: center;
-    font-size: 2.5em;
-    color:rgb(126, 107, 37)
+    font-size: 55px;
+    color:rgb(5, 68, 38)
+
 }
 .tip_topic {
     text-align: center;
-    font-size: 1.8em;
+    font-size: 40px;
     color:rgb(100, 97, 9);
 }
+
 .tip_list {
-    font-size: 1.5em;
-    color:rgb(59, 57, 4);
+    font-size: 32px;
+    color:rgb(30, 28, 26);
 }
 
 .tips_image_holder {
@@ -147,19 +153,20 @@ hr {
     margin-bottom: 100px;
 }
 .quotes_header {
-    font-size: 2.5em;
-    color:rgb(126, 107, 37)
+    font-size: 55px;
+    color:rgb(5, 68, 38);
 }
+
 .quotes_text {
-    font-size: 1.5em;
-    color:rgb(59, 57, 4);
+    font-size: 35px;
+    color:rgb(30, 28, 26);
 }
 
 .places_header {
     text-align: center;
-    font-size: 2.5em;
-    color:rgb(126, 107, 37);
-    margin-bottom: 5px;
+    font-size: 55px;
+    color:rgb(5, 68, 38);
+    margin-bottom: 45px;
 }
 
 .places_holder {
@@ -185,13 +192,15 @@ hr {
     margin-top: 20px;
 }
 .places_info {
-    font-size: 1.5em;
+    font-size: 35px;
+    color:rgb(30, 28, 26);
     text-align: center;
     margin: 0;
-    color:rgb(59, 57, 4);
 }
+   
 .places_text {
     margin: 0;
-    font-size: 1.2em;
-    color:rgb(59, 57, 4);
+    font-size: 25px;
+    color:rgb(30, 28, 26);
+    
 }
