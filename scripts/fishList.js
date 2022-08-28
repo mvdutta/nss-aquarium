@@ -10,7 +10,7 @@ import { getFish } from './database.js'
         
 export const FishList = () => {
     // Invoke the function that you imported from the database module
-    const fishes = getFish().slice(-6)
+    const fishes = getFish().slice(0, 9)
 
     // Start building a string filled with HTML syntax. This is the start of the HTML string.
     let htmlString = ''
